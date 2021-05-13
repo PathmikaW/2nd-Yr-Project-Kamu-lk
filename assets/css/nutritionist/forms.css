@@ -1,0 +1,60 @@
+.form-container {
+    width: 80%;
+    background-color: #f2f2f2;
+    padding: 40px;
+    min-height: 80%;
+    box-shadow: -10px 7px gray;
+    border: 1px solid black;
+ }
+ 
+ .form-control {
+     display: block;
+     width: 100%;
+     padding: .375rem .75rem;
+     font-size: 1rem;
+     line-height: 1.5;
+     color: #495057;
+     background-color:#fff;
+     background-clip: padding-box;
+     border: 1px solid #ced4da;
+     border-radius: .25rem;
+     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+ 
+ .w80 {
+     width: 80%;
+ }
+ 
+ 
+ .w60 {
+     width: 60%;
+ }
+ 
+ .w40 {
+     width: 40%;
+ }
+ 
+ .form-group {
+     margin-bottom: 1rem;
+ }
+ 
+ #sub-form .row {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-gap: 15px;
+     align-items: center;
+     /* display: flex;
+     justify-content: space-between;
+     align-items: center; */
+ }
+ 
+ 
+ .issue-note-form #sub-form .row {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-gap: 15px;
+     align-items: center;
+     /* display: flex;
+     justify-content: space-between;
+     align-items: center; */
+ }

@@ -1,0 +1,72 @@
+.capsule{ 
+  position: absolute;
+  top: 50%;
+  left: 92%;
+  transform: translate(-50%,-50%);
+}
+
+/*.capsule .profilenav{
+  width: 420px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  border-radius: 5px;
+}*/
+
+.capsule .profilenav ul li a{
+  color: #C14D47;
+}
+
+.capsule .profilenav .left ul,
+.capsule .profilenav .right ul li a{
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.capsule .profilenav .left ul li,
+.capsule .profilenav .right img{
+  margin: 0 10px;
+}
+
+.capsule .profilenav .right a{
+  text-align: right;
+
+}
+
+.capsule .profilenav .right a span{
+  font-size: 10px;
+}
+
+.capsule .profilenav .right ul li{
+  position: relative;
+}
+
+.capsule .profilenav .right ul li .dropdown{
+  position: absolute;
+  top: 65px;
+  right: -25px;
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 5px;
+  display: none;
+}
+
+.capsule .profilenav .right ul li .dropdown .fa{
+  margin-right: 10px;
+}
+
+.capsule .profilenav .right ul li .dropdown:before{
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.capsule .profilenav .right ul li.active .dropdown{
+  display: block;
+}

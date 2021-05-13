@@ -1,0 +1,64 @@
+.formBox{
+	width: 80%;
+	padding-left:80px;
+	padding-bottom: 100px;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+.col-2 .formBox h1{
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.col-2 .formBox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.formBox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.formBox input[type="text"],.formBox input[type="password"],.formBox input[type="email"]{
+	border: none;
+	border-bottom: 2px solid rgb(66, 65, 65);
+	outline: none;
+	height: 40px;
+}
+
+.formBox input[type="text"]:focus,.formBox input[type="password"]:focus
+.formBox input[type="password"]:focus{
+	border-bottom: 2px solid black;
+}
+
+.formBox input[type="submit"]{
+	border: none;
+	outline: none;
+	margin-top: 20px;
+	height: 50px;
+	color: #fff;
+	background: black;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 30px;
+}
+
+.formBox input[type="submit"]:hover{
+	background: rgb(66, 65, 65);
+}
+
+.formBox a{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.invalidFeedback{
+	color: red;
+}

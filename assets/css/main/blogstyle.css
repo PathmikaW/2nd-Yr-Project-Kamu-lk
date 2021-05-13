@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 80px;
+}
+
+.btn{
+    display: inline-block;
+    background: #5CDB95;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background:#4d634b ;
+}
+
+.small-container{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+h1{
+	display: inline-block;
+	font-style: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid green;
+	width: 560px;
+	text-align: center;
+}
+#more {display: none;}
+
+.text{
+	width: 600px;
+	border-bottom: 2px solid #A9A9A9;
+
+}
+.create{
+	background-color:#3b5998;
+	float: right;
+	margin-top: 45px;
+	margin-right: 15px;
+}
+button{
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #4FCE5D;
+}
+button:hover
+{
+	background-color:  #c4302b;
+	cursor: pointer;
+}
+
+.logo{
+	width: 125px;
+	height: 70px;
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
+
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: left;
+    }
+    .col-2, .col-3{
+        flex-basis: 100%;
+    }
+}

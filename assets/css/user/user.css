@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/*--------------Add post------------------------*/
+
+.add2{
+    background: #fff;
+    background-size: 100%;
+    width: 100%;
+    margin-top: 0px;
+    max-width: 1500px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.body-add{
+    display: flex;
+    
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0px;
+    background-color: #fff;
+    background-size: 100%;
+}
+
+.add2 .f2{
+    width: 800px;
+    padding-left: 200px;
+    padding-right: 300px;
+}
+fieldset{
+    margin-top: 0px;
+    background-color:#D3D3D3; 
+    margin-left: 0px;
+    border-radius: 20px;
+    align-items: right;
+    border-color: #fff;
+    
+}
+
+.add2 .f2 .form-row{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+    
+}
+.add2 .f2 .form-row input,
+.add2 .f2 .form-row textarea{
+    width: 100%;
+    outline: none;
+    border:2px solid #A9A9A9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 18px;
+    transition: all 0.3s ease;
+}
+.add2 .f2 .form-row textarea{
+    resize: none;
+    height: 125px;
+    width: 600px;
+}
+.table1{
+    margin-left: 40px;
+}
+
+
+.add2 .f2 .form-row .inner input{
+    width: 600px;
+    padding: 8px 20px 10px 20px;
+    font-size: 20px;
+    border:0;
+    background: #A9A9A9;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+}
+.inner input:hover{
+    opacity: 0.6;
+}
+
+.add2 button{
+    border-radius: 100px;
+    border-color:#32CD32;
+    font-size: 15px;
+    width: 150px;
+   
+    
+}
+
+/*----------View table-------------*/
+
+table {
+    margin: 20px 40px 0px 200px;
+    margin-left: 100px;
+}
+
+
+
+table .tb1{
+    margin-left: 20px;
+
+    width: 1000px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    table-layout: fixed;
+    
+}
+table ,th{
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #080808;
+    border-collapse: collapse;
+    font-size:25px;
+    background:#A9A9A9;
+}
+
+table ,tr,td{
+    padding: 20px;
+    color: #fff;
+    border: 2px solid #080808;
+    border-collapse: collapse;
+    font-size: 18px;
+    background:#EAC117;
+}
+
+td:hover{
+    background: black;
+}
+
+.btn-info{
+    padding: 5px 5px 5px 5px;
+    color: red;
+    background-color: #fff;
+    border-radius: 15px;
+}

@@ -1,0 +1,39 @@
+.food-view  .button1{
+    border-radius: 15px;
+    background-color: #5CDB95;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.food-view  .button{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+.col-2 img{
+    width: 100%;
+    height: 500px;
+}
